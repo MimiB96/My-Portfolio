@@ -1,17 +1,21 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --nav-color: aqua;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 h1 {
@@ -76,4 +80,13 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.navbar {
+  background-color: var(--nav-color);
+}
+
+.navigation-links .btn {
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
